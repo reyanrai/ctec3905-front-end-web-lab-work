@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-color: #069;
+}
+
+a.linkedit {
+  font-family: sans-serif;
+  font-size: 2em;
+  color: white;
+}
+
+a.linkedit:hover {
+background-color: #ddd;
+transition: 0.7s;
+}
+
+div.ptext {
+  margin: 0;
+  padding: 2em 1em;
+  border: 0.15em solid white;
+  border-radius: 1em;
+  text-align: center;
+}
+
+nav{
+  margin: 0;
+  padding: 1em 1em;
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+main {
+overflow: auto;
+}
+
+p.maintext{
+font-size: 1.5em;
+color: white;
+}
+
+header {
+  margin: auto;
+  padding: 1em 3em;
+  align: center;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-style: bold;
+  font-family: fantasy;
+  font-size: 3em;
+}
+
+footer {
+  overflow: auto;
+  margin: 0;
+  padding: 2em 1em;
+  border-radius: 1em;
+  text-align: left;
+}
+
+p.footertrigger {
+  color: red;
+  font-size: 1em;
+}
